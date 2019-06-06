@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simple Carousel</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+  <body class="test" id="body">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1/3</div>
+        <img src="./images/Niagara_1.jpg">
+        <div class="text">1</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2/3</div>
+        <img src="./images/Niagara_2.jpg">
+        <div class="text">1</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3/3</div>
+        <img src="./images/Niagara_3.jpg">
+        <div class="text">3</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">⇦</a>
+      <a class="next" onclick="plusSlides(1)">⇨</a>
+    </div>
+    <br>
+    <div class="circles">
+      <span class="dot" onclick="currentSlides(1)">1</span>
+      <span class="dot" onclick="currentSlides(2)">2</span>
+      <span class="dot" onclick="currentSlides(3)">3</span>
+    </div>
+    <script src="./index.js" type="text/javascript" charset="utf-8" async defer></script>
+  </body>
+</html>
